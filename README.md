@@ -9,7 +9,7 @@ This is a binding from [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/api/) 
 
 ## Code example
 ```javascript
-var token ="pk.XXXX"; // replace with your Mapbox API Access token. Create a Mabpox account and find it on https://www.mapbox.com/studio/
+var token ="pk.XXXX"; // replace with your Mapbox API Access token. Create a Mapbox account and find it on https://account.mapbox.com/
 
 var map = L.map('map').setView([38.912753, -77.032194], 15);
 L.marker([38.912753, -77.032194])
@@ -56,9 +56,9 @@ Add a script tag referencing mapbox-gl-leaflet after adding leaflet in your webs
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.3/mapbox-gl.css' rel='stylesheet' />
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.14.3/mapbox-gl.js'></script>
 ```
-You can also use Rawgit as a CDN using:
+You can also use Unpkg as a CDN using:
 ```html
-<script src="//rawgit.com/mapbox/mapbox-gl-leaflet/master/leaflet-mapbox-gl.js"></script>
+<script src="https://unpkg.com/mapbox-gl-leaflet/leaflet-mapbox-gl.js"></script>
 ```
 
 ## Motivation
@@ -79,4 +79,4 @@ Please use the [issue tracker](https://github.com/mapbox/mapbox-gl-leaflet/issue
 You can fork this [jsfiddle template](https://jsfiddle.net/fnicollet/9w9er53v/) to reproduce a bug, then share the URL of your fork in the GitHub issue.
 
 ## Licence
-The MIT License (MIT)
+ISC © [Mapbox](https://github.com/mapbox)
